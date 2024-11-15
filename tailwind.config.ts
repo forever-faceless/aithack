@@ -1,3 +1,4 @@
+import { title } from "process";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -11,6 +12,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        Doto:["Doto", "sans-serif"],
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to bottom, #7d72ff, #26DDA4)',
       },
     },
   },
